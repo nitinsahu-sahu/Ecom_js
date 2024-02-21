@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/**
+*! Navbar style
+**/
+.navbar {
+    background-color: bisque;
+    display: flex;
+    padding: 25px 60px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.cart {
+    background-color: white;
+    color: bisque;
+    font-size: 30px;
+    padding: 5px;
+    border-radius: 4px;
+    position: relative;
+}
+
+.cart_ammount {
+    font-size: 14px;
+    background-color: red;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1px 2px;
+    /* position: absolute;
+    top: 10;
+    right: 0; */
+
+}
