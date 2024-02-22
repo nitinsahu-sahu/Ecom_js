@@ -36,8 +36,26 @@ body {
     top: 0;
     right: 0;
     padding: 1px 2px;
-    /* position: absolute;
-    top: 10;
-    right: 0; */
+}
 
+/**
+*! Item List Style
+**/
+
+.item_list{
+    display: flex;
+    padding: 12px;
+    justify-content: space-around;
+}
+
+.card img{
+    height: 15rem;
+    width: 16rem;
+    align-self: center;
+    margin-top: 12px;
+}
+
+.item_name{
+    overflow: hidden;
+    height: 53px;
 }
